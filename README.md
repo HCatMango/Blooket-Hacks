@@ -1,0 +1,1 @@
+Copy The Text In The Scrit "BlooketHacks-Github.js" And Put It Into The Console Or Get It Added Automaticaly By Downloading The Greasy Fork Script Here: https://greasyfork.org/en/scripts/495116-blooket-hacks

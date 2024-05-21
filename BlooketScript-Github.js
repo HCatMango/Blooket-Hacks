@@ -13,7 +13,7 @@
                 },
                 querySelector: iframe.contentDocument.querySelector.bind(document),
                 includes: function () {
-                    if (["Cheats", "Global", "Global Cheats", "Discord - oneminesraft2", "Auto Answer (Toggle)", "Auto Sell Dupes On Open", "Spam Buy Blooks", "Food Game", "Change Blook Ingame", "Get Daily Rewards", "Remove Name Limit", "Simulate Unlock", "Cheat ESP", "Gold Quest Cheats", "Cafe Cheats", "Crypto Hack Cheats", "Deceptive Dinos Cheats", "Tower Defense Cheats", "Tower Defense2 Cheats", "Factory Cheats", "Fishing Frenzy Cheats", "Flappy Blook Cheats", "Tower of Doom Cheats", "Crazy Kingdom Cheats", "Racing Cheats", "Battle Royale Cheats", "Blook Rush Cheats", "Monster Brawl Cheats", "Santa's Workshop Cheats"].includes(arguments[0]))
+                    if (["Cheats", "Global", "Global Cheats", "Discord - h_catmango", "Auto Answer (Toggle)", "Auto Sell Dupes On Open", "Spam Buy Blooks", "Food Game", "Change Blook Ingame", "Get Daily Rewards", "Remove Name Limit", "Simulate Unlock", "Cheat ESP", "Gold Quest Cheats", "Cafe Cheats", "Crypto Hack Cheats", "Deceptive Dinos Cheats", "Tower Defense Cheats", "Tower Defense2 Cheats", "Factory Cheats", "Fishing Frenzy Cheats", "Flappy Blook Cheats", "Tower of Doom Cheats", "Crazy Kingdom Cheats", "Racing Cheats", "Battle Royale Cheats", "Blook Rush Cheats", "Monster Brawl Cheats", "Santa's Workshop Cheats"].includes(arguments[0]))
                         return false;
                     return iframe.contentWindow.String.prototype.call(this, arguments);
                 },
@@ -174,7 +174,7 @@
                         userSelect: "text"
                     },
                     innerHTML: "GitHub - HCatMango",
-                    onclick: () => window.open("https://github.com/05Konz2/Blooket-Cheats", "_blank").focus()
+                    onclick: () => window.open("https://github.com/HCatMango/Blooket-Hacks", "_blank").focus()
                 }),
                 (controlButtons = createElement("div", {
                     id: "controlButtons",
@@ -301,7 +301,7 @@
                             visibility: "visible"
                         },
                         target: "_blank",
-                        href: "https://discord.gg/jHjGrrdXP6",
+                        href: "https://discord.gg/dRzfeYbqJQ",
                         innerHTML: `<div style="background: rgba(0,0,0,.25); border-radius: 5px; display: block; width: 100%; height: 100%; left: 0; top: 0; position: absolute; transform: translateY(2px); width: 100%; transition: transform .6s cubic-bezier(.3,.7,.4,1)"></div>
             <div style="background-color: rgb(11, 194, 207); filter: brightness(.7); position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 5px;"></div>
             <div style="font-weight: 400; background-color: rgb(11, 194, 207); color: white; display: flex; flex-direction: row; align-items: center; justify-content: center; text-align: center; padding: 5px; border-radius: 5px; transform: translateY(-4px); transition: transform .6s cubic-bezier(.3,.7,.4,1)">
@@ -2961,7 +2961,7 @@
         }
     });
     let img = new Image;
-    img.src = "https://raw.githubusercontent.com/05Konz/Blooket-Cheats/main/autoupdate/timestamps/gui.png?" + Date.now();
+    img.src = "https://th.bing.com/th?id=ODLS.1ddba9d3-d1a2-4a2a-a953-d619d428bd8a&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2" + Date.now();
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");
@@ -2985,6 +2985,6 @@
         img.onerror = img.onabort = null;
         cheat();
         let iframe = document.querySelector("iframe");
-        iframe.contentWindow.alert("It seems the GitHub is either blocked or down.\n\nIf it's NOT blocked, join the Discord server for updates\nhttps://discord.gg/jHjGrrdXP6")
+        iframe.contentWindow.alert("It seems the GitHub is either blocked or down.\n\nIf it's NOT blocked, join the Discord server for updates\nhttps://discord.gg/dRzfeYbqJQ")
     }
 })();
